@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+/* ........................................................... */
+ /* Header Section Start  */
+ /* ............................................................ */
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: 5rem 6rem;
+    padding: 2rem 5rem 0 4rem;
+    border-radius: 20px;
+    
+}
+.head-text{
+    width: 50%;
+    margin-top: 2rem;
+}
+.head-text h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.head-pic{
+    width: 50%;
+}
+.head-pic img{
+    width: 100%;
+}
+.head-text p{
+    margin-bottom: 1.8rem;
+    font-size: .8em;
+}
+.head-text a{
+    text-decoration: none;
+    background-color: #DD0000;
+    color: white;
+    padding: .5em 1.2em .5em 1.2em;
+    border-radius: .2rem;
+}
+.head-text span{
+    position: relative;
+    left: .3em;
+}
+
+ /* Header Section Start  */
+ /* ....................................................................... */
+
+ /* Main section start */
+ .main-side{
+    background-color: black;
+    color: white;
+    width: 15%;
+    height: 15%;
+    padding: 2rem;
+    border-radius: .5rem;
+    position: relative;
+    left: 7rem;
+ }
+ .main-side .whit{
+    background-color: white;
+    color: black;
+    margin: .2rem .2rem 1rem .2rem;
+     padding: .8rem 1rem;
+    text-align: center;
+    border-radius: .5rem;
+    font-weight: 900;
+    
+ }
+ .main-side .whit-1{
+    background-color: white;
+    color: black;
+    margin: .2rem .2rem 1rem .2rem;
+    padding: .8rem 1rem;
+    text-align: center;
+    border-radius: .5rem;
+    font-weight: 900;
+ }
+ .main-side .differ{
+    background-color: #DD0000;
+    color: white;
+    margin: .2rem .2rem 1rem .2rem;
+    padding: .8rem 1rem;
+    text-align: center;
+    border-radius: .5rem;
+    font-weight: 900;
+    
+ }
+ .differ a{
+   text-decoration: none;
+   color: white;
+ }
+ .main-flx{
+    display: flex;
+ }
+ .players{
+    max-width: 100%;
+    position: relative;
+    left: 9rem;
+    display: grid;
+    grid-template-columns: repeat(3,15rem);
+    gap: 1rem;
+    margin-bottom: 8rem;
+    
+    
+ }
+ .players img{
+    width:100%;
+    margin-bottom: .2rem;
+ }
+ .player{
+    border: 1px solid;
+    border-radius: .5rem;
+    
+ }
+ .gap{
+    padding: .5rem;
+ }
+ .gap a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 2px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    font-weight: 700;
+ }
+ .gap p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+ }
+ .gap span{
+    margin-left: 15px;
+ }
+ /* Main section end */
+ /* .............................................................. */
+ /* footer */
+ .foot{
+    background-color: black;
+    height: 20rem;
+ }
+ .foot h2{
+   text-align: center;
+    color: white;
+    position: relative;
+    top: 5rem;
+ }
+ .foot hr{
+    position: relative;
+    top: 7rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+   
+ }
+ 
+ .foot-text span{
+    margin: .8rem;
+    position: relative;
+    left: 18rem;
+    top: 10rem;
+    color: lightgrey;
+    font-size: .8rem;
+    
+ }
+ 
+
+
+
+
