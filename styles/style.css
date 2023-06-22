@@ -4,6 +4,7 @@
 }
 html{
     font-family: 'Poppins', sans-serif;
+   
 }
 /* ........................................................... */
  /* Header Section Start  */
@@ -60,6 +61,7 @@ header{
     border-radius: .5rem;
     position: relative;
     left: 7rem;
+    
  }
  .main-side .whit{
     background-color: white;
@@ -136,6 +138,18 @@ header{
  .gap span{
     margin-left: 15px;
  }
+ .view a{
+  text-decoration: none;
+  background-color:#DD0000;
+  padding: 1rem 2rem 1rem 2rem;
+  color: white;
+  border-radius: .5rem;
+  position: relative;
+  left: 40rem;
+  bottom: 3rem;
+  font-size: 1.8rem;
+  display: none;
+ }
  /* Main section end */
  /* .............................................................. */
  /* footer */
@@ -166,6 +180,95 @@ header{
     font-size: .8rem;
     
  }
+ /* footer  End */
+ /* ..................................... */
+ /* responsive */
+ @media screen and (max-width:576px){
+  
+   html{
+      width: 100%;
+      overflow-x: hidden;
+   }
+   header{
+      flex-direction: column;
+      height: 440px;
+      margin: .5rem 1rem 1rem 1rem;
+
+     
+      
+   }
+   .head-text h1{
+      font-size: 20px;
+      text-align: center;
+      
+   }
+   .head-text{
+      width: 100%;
+      margin-top:0;
+      position: relative;
+      bottom: 1rem;
+   }
+   .head-text p span{
+      display: none;
+   }
+   .head-text p{
+      text-align: center;
+      position: relative;
+      bottom: .5rem;
+   }
+   .head-text .cen{
+      text-align: center;
+      position: relative;
+      bottom: 1rem;
+     
+   }
+   .head-pic{
+      width: 100%;
+      align-items: center;
+   }
+   .head-pic img{
+      width: 80%;  
+      position: relative;
+      left: 3rem;
+   }
+   .main-flx{
+      flex-direction: column;
+   }
+   .main-side{
+      width: 50%;
+      background-color: white;
+      padding: 0;
+      font-size: 20px;
+   }
+   .main-side .whit,.whit-1{
+      border: 1px solid lightgray;
+   }
+   .players{
+      grid-template-columns: repeat(1,1fr);
+       max-width: 80%;
+       position: relative;
+       left: 3rem;
+   }
+   .foot{
+      width: 90%;
+      height: 30rem;
+      position: relative;
+      left: 2rem;
+      
+     
+   }
+   .foot-text{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      position: relative;
+      right: 8rem;
+   }
+   
+ }
+
+  
+
+ 
  
 
 
